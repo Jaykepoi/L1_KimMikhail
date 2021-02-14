@@ -6,23 +6,18 @@
 	<array>
 		<dict>
 			<key>ModifiedContent</key>
-			<string>//Вклад на 5 лет
-import Foundation
-var a: Double = 1000.0
-var b: Double = 10.0
-var c: Double = 0.0
-
-for i in 1 ... 5 
-{
-    c = Double(a+(a * b)/100)
-    a=(Double(c))
-    
-    print("Сумма вклада за",i, "год равна: ",c)
-    
-}
+			<string>import Foundation
+var a: Double = 3
+var b: Double = 4
+var c: Double = sqrt(pow(Double(a),2)+pow(Double(b),2))
+var p: Double = a + b + c
+var s: Double = 0.5 * a * b
+print("Гипотенуза равна: ",c)
+print("Периметр треугольника равен: ",p)
+print("Площадь треугольника равна: ",s)
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 228}</string>
+			<string>{0, 275}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

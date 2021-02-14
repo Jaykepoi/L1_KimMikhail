@@ -6,27 +6,36 @@
 	<array>
 		<dict>
 			<key>ModifiedContent</key>
-			<string>//Вклад на 5 лет
-import Foundation
-var a: Double = 1000.0
-var b: Double = 10.0
-var c: Double = 0.0
-
-for i in 1 ... 5 
-{
-    c = Double(a+(a * b)/100)
-    a=(Double(c))
-    
-    print("Сумма вклада за",i, "год равна: ",c)
-    
+			<string>import Foundation
+var a: Float = 4
+var b: Float = 8
+var c: Float = 3
+var d: Float = b * b - (4 * a * c)
+var x1: Float = 0
+var x2: Float = 0
+print("Дискриминант равен: ",d)
+if d &gt;= 0 {
+    var f: Float = sqrt(d)
+    x1 = (-b + f)/(2 * a)
+    x2 = (-b - f)/(2 * a)
+    print("Корень х1 равен: ",x1," Корень х2 равен: ", x2)
+}else {
+    print("Нет корней")
 }
+
+
+
+
+
+
+
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 228}</string>
+			<string>{1, 363}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>
-			<string>{0, 0}</string>
+			<string>{1, 0}</string>
 		</dict>
 	</array>
 	<key>File</key>
