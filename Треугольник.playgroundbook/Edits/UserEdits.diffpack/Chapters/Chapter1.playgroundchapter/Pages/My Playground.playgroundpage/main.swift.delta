@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import Foundation
+var a: Double = 3
+var b: Double = 4
+var c: Double = sqrt(pow(Double(a),2)+pow(Double(b),2))
+var p: Double = a + b + c
+var s: Double = 0.5 * a * b
+print("Гипотенуза равна: ",c)
+print("Периметр треугольника равен: ",p)
+print("Площадь треугольника равна: ",s)
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 275}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

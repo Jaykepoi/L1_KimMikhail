@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import Foundation
+var a: Float = 4
+var b: Float = 8
+var c: Float = 3
+var d: Float = b * b - (4 * a * c)
+var x1: Float = 0
+var x2: Float = 0
+print("Дискриминант равен: ",d)
+if d &gt;= 0 {
+    var f: Float = sqrt(d)
+    x1 = (-b + f)/(2 * a)
+    x2 = (-b - f)/(2 * a)
+    print("Корень х1 равен: ",x1," Корень х2 равен: ", x2)
+}else {
+    print("Нет корней")
+}
+
+
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 361}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
